@@ -66,7 +66,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "簡體轉繁體中文字幕轉換工具"))
         self.choose_ass_file_text.setText(_translate("MainWindow", "選擇字幕檔"))
         self.choose_ass_file_button.setText(_translate("MainWindow", "..."))
         self.save_path_text.setText(_translate("MainWindow", "儲存路徑"))
